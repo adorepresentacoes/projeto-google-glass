@@ -89,7 +89,7 @@ ul#album-fotos li span {
     padding: 5px;
 }
 ul#album-fotos li:hover{
-    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 ul#album-fotos li:hover span {
     opacity: 1;
