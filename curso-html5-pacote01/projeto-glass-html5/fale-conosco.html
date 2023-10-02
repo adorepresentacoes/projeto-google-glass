@@ -100,7 +100,8 @@
                         <option value="TO">Tocantins</option>
                     </select>
                 </p>
-                <p><label for="cCid">Cidade: <input type="text" name="tCid" id="cCid" maxlength="40" size="25" placeholder="Sua Cidade" list="cidades" ></label></p>
+                <p><label for="cCid">Cidade: <input type="text" name="tCid" id="cCid" maxlength="40" size="25"
+                            placeholder="Sua Cidade" list="cidades"></label></p>
                 <datalist id="cidades">
                     <option value="Rio de Janeiro"></option>
                     <option value="Saquarema"></option>
@@ -112,14 +113,21 @@
             </fieldset>
             <fieldset id="mensagem">
                 <legend>Mensagem do Usuário</legend>
-                <p><label for="cUrg">Grau de Urgência: Min </label><input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2" > Max</p>
-                <p><label for="cMsg">Mensagem:</label></p>
+                <p><label for="cUrg">Grau de Urgência: Min </label><input type="range" name="tUrg" id="cUrg" min="0"
+                        max="10" step="2"> Max</p>
+                <p><label for="cMsg">Mensagem </label></p>
                 <textarea name="tMsg" id="cMsg" cols="50" rows="6" placeholder="Digite aqui sua mensagem"></textarea>
             </fieldset>
 
             <fieldset>
                 <legend id="pedido">Quero um Google Glass</legend>
                 <p>Gostaria de adquirir um Google Glass quando disponível?</p>
+                <input type="radio" name="tPos" id="cPos">
+                <label for="cPos">Sim</label>
+                <input type="radio" name="tNeg" id="cNeg">
+                <label for="cNeg">Não</label>
+                <input type="radio" name="tDep" id="cDep">Deixar para depois</label>
+
                 <p>Cor:</p>
                 <p>Quantidade:</p>
                 <p>Preço Total: R$</p>
